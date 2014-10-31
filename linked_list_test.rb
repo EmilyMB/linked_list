@@ -87,7 +87,6 @@ class IterativeLinkedListTest < Minitest::Test
   end
 
   def test_it_converts_to_an_array_with_several_elements
-    skip
     list.push("hello")
     list.push("world")
     list.push("today")
@@ -95,7 +94,6 @@ class IterativeLinkedListTest < Minitest::Test
   end
 
   def test_it_finds_the_last_node
-    skip
     list.push("hello")
     list.push("world")
     node = list.last_node
